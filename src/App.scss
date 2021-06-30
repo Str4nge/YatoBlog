@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #a9a9a9;
+}
+.App {
+  background-color: #282c34;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  padding: 20px 40px 40px;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  .logo {
+    object-fit: contain;
+    align-self: flex-start;
+  }
+  .txt {
+    flex: 1 1 auto;
+    padding-left: 30px;
+  }
+  h3 {
+    padding: 10px 0;
+  }
+}
+h5 {
+  margin-bottom: 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  // max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+
+  h1 {
+    color: #61dafb;
+  }
+
+  .links {
+    margin-left: auto;
+  }
+  a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+
+    &:hover {
+      color: #61dafb;
+    }
+  }
+  h4 {
+    margin-left: 20px;
+    color: #f5f5f5;
+  }
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.greet p {
+  margin-top: 5px;
+  color: #f5f5f5;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 15px 0;
+  border-bottom: 1px solid #d8d8d8;
+
+  &:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+  }
+  h3 {
+    font-size: 20px;
+    color: #61dafb;
+    margin-bottom: 5px;
+  }
+}
